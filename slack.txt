@@ -2,6 +2,90 @@
 
 
 
+When to use retainCount? http://whentouseretaincount.com/
+
+A command-line tool that reorganizes your Xcode project folder to match your Xcode groups   https://github.com/venmo/synx
+
+Demoday Ironhack Madrid final talk (in Spanish) by Rafa Aguilar
+
+Inspiring, humbling!
+
+https://www.youtube.com/watch?v=CeZ_Hmlh568
+
+
+
+http://objectheap.com/fucking-block-syntax/
+
+Online bug reporter (File Radar) https://bugreport.apple.com/    Desktop file radar:  http://www.quickradar.com/
+
+
+http://stackoverflow.com/questions/10368606/on-ios-why-can-uigesturerecognizer-be-instantiated-if-it-is-an-abstract-class
+
+
+
+
+First email sent by Google Support team AFTER remove your app:
+
+This is a notification that your application, ESPN Channel, with package ID com.arequa.espn, has been removed from the Google Play Store.
+
+REASON FOR REMOVAL: Violation of the intellectual property and impersonation or deceptive behaviorprovisions of the Content Policy.
+
+All violations are tracked. Serious or repeated violations of any nature will result in the termination of your developer account, and investigation and possible termination of related Google accounts. If your account is terminated, payments will cease and Google may recover the proceeds of any past sales and the cost of any associated fees (such as chargebacks and payment transaction fees) from you.
+
+If your developer account is still in good standing, you may revise and upload a policy compliant version of your application as a new package name. Before uploading any new applications, please review the Developer Distribution Agreement andContent Policy.
+
+If you feel we have made this determination in error, you can visit the Google Play Help Center article for additional information regarding this removal.
+
+The Google Play Team
+
+franciscocaro [11:46 PM]
+And then, the best of the best... Second robot email AFTER remove your developer account:
+
+This is a notification that your Google Play Publisher account has been terminated.
+
+REASON FOR TERMINATION: Multiple violations of the Content Policy and Developer Distribution Agreement as outlined in previous emails sent to the registered email address of your Publisher account.
+
+Please note that Google Play Publisher terminations are associated with developers, and may span multiple account registrations and related Google services. If you feel we have made an error, you can visit the Google Play Help Center article for additional information regarding this termination.
+
+Please do not attempt to register a new developer account. We will not be restoring your account at this time.
+
+The Google Play Team
+
+
+
+
+
+This app (a TV series related app) was mentioned by Victor. On Wednesday we will build an app based on iShows app http://ishowsapp.com/
+
+[Intro to Swift, Diego Freniche (Me) for the IronHack](https://www.youtube.com/watch?v=icg82pEv4jQ)
+
+https://developer.apple.com/videos/wwdc/2014/#216
+Learn about the latest in iOS and OS X with WWDC 2014 session videos.
+
+
+
+ http://bohemiancoding.com/sketch/ is a vectorial image program (similar to Adobe Ilustrator) used by iOs developers. (
+
+
+http://helpx.adobe.com/photoshop/using/blending-modes.html Nice and simple explanation about blending from Adobe itself
+
+https://developer.apple.com/library/ios/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html#//apple_ref/doc/filter/ci/CIHardLightBlendMode
+Describes the built-in image processing filters available through Core Image.
+
+
+
+
+Links: http://www.raywenderlich.com/84043/ios-8-visual-effects-tutorial
+   http://rafaparadela.github.io/ironhack/#w03
+   http://www.shinobicontrols.com/iOS8DayByDay
+
+
+Tower 2 http://www.git-tower.com/ a client of Git.
+
+
+Crashlytics is an analytics tool mentioned by Ricardo Caballero.  https://try.crashlytics.com/    It reports all possible crashes of your apps.
+
+
 
 
 http://www.macappdownload.net

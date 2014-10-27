@@ -1,6 +1,7 @@
 
 
 
+Zoom in and out the simulator to diferent sizes:    ⌘1    ⌘2          ⌘3
 
 When to use retainCount? http://whentouseretaincount.com/
 
@@ -116,5 +117,143 @@ Session about design by Erik de Erice is recorded at:  http://bit.ly/diseñatuap
 Dribble: https://dribbble.com
 
 Links: Dribble: https://dribbble.com       search for: iOS animations    Objc.io Articles about Objective-C Flat colors: http://flatuicolors.com QuartzCode http://www.quartzcodeapp.com (PaintCode for animations) Reveal App http://revealapp.com  Principles of animation Disney http://vimeo.com/93206523
+
+
+
+
+Great ! Pol and Alessandro blog about Ironhack classes: https://medium.com/@poolqf/week-1-at-ironhack-62686b2a9112     http://alessandro-martin-ios.blogspot.com.es/2014/10/ironhack-ios-week-2.html
+
+
+Links: Pop by Facebook: https://github.com/facebook/pop    Tutorials about animations on MiguelDiazRubio portal: http://www.migueldiazrubio.com/2013/08/02/desarrollo-ios-creando-nuestros-propios-controles-con-core-animation/      iOS Goodies http://ios-goodies.com iOS Weekly  http://iosdevweekly.com iOS state of the union http://www.state-of-the-union.com
+
+
+
+the12principles.tumblr.com
+
+About the custom switch for the minishows app, you can subclass UIControl and create your switch from scratch (adding subviews to it, animations between different states, etc.) or you can use any of the available pods/projects on github. This is the best one I have found: https://github.com/bvogelzang/SevenSwitch
+ 
+GitHub
+bvogelzang/SevenSwitch
+SevenSwitch - iOS7 style drop in replacement for UISwitch
+
+victorbaro [12:18 PM]
+And this is a good tutorial to do the whole thing: http://www.raywenderlich.com/23424/photoshop-for-developers-creating-a-custom-uiswitch
+
+victorbaro [12:18 PM]
+jajajaja
+
+victorbaro [12:19 PM]
+One **last** thing, let me send you the .sketch project for minishows
+
+
+
+
+Small Tip: if you don't want to use SevenSwitch 2.0 for being Swift-Only get the 1.4 version (Obj-C) from the github repo
+
+
+
+
+https://github.com/kyleh415
+kyleh415 (Kyle Hardman)
+
+
+
+https://github.com/alessandro-martin
+alessandro-martin
+
+
+
+https://github.com/poolqf
+poolqf (Pol Quintana)
+
+
+https://github.com/mariabernis
+mariabernis
+
+
+
+https://github.com/franciscocarodiaz
+franciscocarodiaz
+
+
+https://github.com/albertvc10
+albertvc10 (Albert Villanueva Carreras)
+
+
+
+
+
+# Models
+
+## Exercise 1
+
+- Create an iPhone application using UITabBarController with two sections. Each section would be UITableViewControllers that would present TVShows and Movies. 
+
+- Create two entity classes. A class for representing TVShows and another one for representing Movies
+
+- Implement NSCopying on both classes
+
+- Populate each table with TVShows and Movies generated randomly (content is irrelevant for this practice. It could be random strings)
+
+- Implement some UI that allow the user to duplicate one of the previously created entities class. 
+
+- Implement NSCoding on both classes
+
+- Save all entities to disk using NSKeyedArchiver (suggestion: when switching sections)
+
+- Recover all saved data using NSKeyedUnarchiver
+
+- Try to do it using TDD
+
+- Test at least your NSCopy and NSCoding implementations
+
+
+## Exercise 2
+
+- Use previous project to implement Equality on TVShows and Movies classes
+
+- Implement hash on both classes
+
+- Implement custom Equality methods
+
+- Implement some UI that allow the user to compare between entities. (duplicated entities must match and others must mismatch)
+
+- Implement some UI that allow the user to search into the datasource for it (containsObject:)
+
+- Try to do it using TDD
+
+- Test at least isEqual, isEqualTo_ClassName_  and hash methods
+
+
+## Exercise 3
+
+- Fork your previous project to redo everything using Mantle
+
+- Add Mantle using CocoaPods
+
+- Remove Equality, NSCoding & NSCopying implementation and make all entities extend MTLModel
+
+- Check that your Tests still pass
+
+
+## Exercise 4
+
+- Implement MTLJSONSerializing protocol
+
+- Try to do it using TDD
+
+- Test at least that all your new concretion properties have the correct value
+
+- Create a new class to read from JSON and return your entities populated with data
+
+- Load an example JSON (provided by teacher) and obtain TVShows
+
+
+
+
+Links recommended by Dani:  http://qualitycoding.org OCMockito: https://github.com/jonreid/OCMockito  Articles about Objective-C objc.io
+
+
+
 
 

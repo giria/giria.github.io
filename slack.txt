@@ -260,6 +260,11 @@ Guys, a smal disclaimer about PDKTModelBuilder : It is a work in progress projec
 http://ironhack4thweek.s3.amazonaws.com/shows.json
 
 
+https://developer.apple.com/Library/ios/documentation/Cocoa/Conceptual/CoreDataVersioning/Articles/vmLightweightMigration.html#//apple_ref/doc/uid/TP40004399-CH4-SW1
+Explains the managed object model versioning and data migration features of Core Data.
+
+
+
 
 
 

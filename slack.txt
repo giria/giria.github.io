@@ -250,8 +250,20 @@ albertvc10 (Albert Villanueva Carreras)
 
 
 
+Links recommended by Dani:  http://qualitycoding.org OCMockito: https://github.com/jonreid/OCMockito  Articles about Objective-C objc.io   Blog 8Light about Mocking:   http://blog.8thlight.com/uncle-bob/2014/05/14/TheLittleMocker.html
 
-Links recommended by Dani:  http://qualitycoding.org OCMockito: https://github.com/jonreid/OCMockito  Articles about Objective-C objc.io
+More Links libraries similar to Mantle: Groot https://github.com/gonzalezreal/Groot Produkt https://github.com/Produkt/PDKTModelBuilder
+
+Guys, a smal disclaimer about PDKTModelBuilder : It is a work in progress project and it's absolutely not recommended for using it in a production code. Feel free to take a look on it and give us feedback. Any contribution is welcome :wink: (It still don't implements NSCoding/NSCoping and stuff like that. It is focused on parsing data and creating entities objects. Specially CoreData objects)
+
+
+http://ironhack4thweek.s3.amazonaws.com/shows.json
+
+
+
+
+
+
 
 
 

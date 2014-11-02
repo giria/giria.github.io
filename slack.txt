@@ -263,6 +263,79 @@ http://ironhack4thweek.s3.amazonaws.com/shows.json
 https://developer.apple.com/Library/ios/documentation/Cocoa/Conceptual/CoreDataVersioning/Articles/vmLightweightMigration.html#//apple_ref/doc/uid/TP40004399-CH4-SW1
 Explains the managed object model versioning and data migration features of Core Data.
 
+Tower, a very good GIT client   http://www.macappdownload.net/tower-2-0-8/
+
+Produkt/ironhack_git_practice   http://www.macappdownload.net/tower-2-0-8/
+
+guys, check this video for easily chaining core image filters together :smile:
+victorbaro [6:51 PM]
+https://vimeo.com/110269167
+
+victorbaro [12:13 PM] 
+https://github.com/VAlexander/Chameleon
+ 
+GitHub
+VAlexander/Chameleon
+Chameleon - A Lightweight x Powerful Flat Color Framework for iOS
+victorbaro [12:13 PM]
+Nice pod
+
+
+Links from Dani: JaviSoto GitHub
+https://github.com/JaviSoto  MSLeakHunter   
+Backend libararies backbeam https://backbeam.io   Parse parse.com
+
+
+NSBarcelona (http://www.meetup.com/nsbarcelona/) 
+NSCoderNight Madrid(http://www.meetup.com/NSCoder-Night-Madrid/) , 
+NSDrinks http://www.meetup.com/NSCoder-Night-Madrid/events/151837812/ (every two weeks) are meetups when you can contact with local iOS community.
+
+
+kyleh415 [2:34 PM] 
+http://ronnqvi.st/clear-animation-code/
+David Rönnqvist
+Clear* Animation Code
+
+http://ronnqvi.st/thinking-like-a-bzier-path/
+David Rönnqvist
+Thinking like a Bézier path
+
+http://www.objc.io/issue-12/animations-explained.html
+A periodical about best practices and advanced techniques for iOS and OS X development.
+
+
+victorbaro [4:20 PM] 
+@kyleh415: I am glad you found that blog! I completely forgot mentioning it, the guy is really good (he came to NSSpain to talk about SceneKit for iOS)
+
+
+Links form Dani:   SDWebImage https://github.com/rs/SDWebImage (a Library that implements most of the today example)           Peter Steinberger  (@steipete on Twiter) an expert on runtime. Practical runtime hackery https://www.youtube.com/watch?v=frgnVhBcIFA
+
+df2880909bafa2689135188bf47fe5f9
+fillito [11:27 AM]
+http://api.trakt.tv/movies/trending.json/df2880909bafa2689135188bf47fe5f9
+
+
+Links from Dani: Books about concurrency  iOS pushing the limits http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118818342.html  
+ Objective-C http://www.amazon.com/Effective-Objective-C-2-0-Specific-Development/dp/0321917014      
+ Strategy pattern http://objective-c.es/adapters-o-morir/  
+ Head first design patterns  http://shop.oreilly.com/product/9780596007126.do   
+ Working with legacy code http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052 
+
+
+ Hi guys, in order you can submit your idea for mobile projects, you can point your browser to http://ironhack-school.ideascale.com/a/ideafactory.do?mode=top&discussionFilter=byids&discussionID=9939            after sign up to ideaScale portal you can write your project  idea (or ideas) and commenting the projects of other students.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -322,7 +322,26 @@ Links from Dani: Books about concurrency  iOS pushing the limits http://eu.wiley
  Working with legacy code http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052 
 
 
- Hi guys, in order you can submit your idea for mobile projects, you can point your browser to http://ironhack-school.ideascale.com/a/ideafactory.do?mode=top&discussionFilter=byids&discussionID=9939            after sign up to ideaScale portal you can write your project  idea (or ideas) and commenting the projects of other students.
+ Hi guys, in order you can submit your idea for mobile projects, you can point your browser to ironhack-school.ideascale.com after sign up to ideaScale portal you can write your project  idea (or ideas) and commenting the projects of other students.
+
+
+ Links for Diego> CoreData stack in 5 lines: http://commandshift.co.uk/blog/2013/09/07/the-core-data-stack/  Mogenerator http://rentzsch.github.io/mogenerator/  Install Homebrew: http://brew.sh
+
+
+ guys, you should consider this: https://redbooth.com/jobs#ios-developer
+
+
+ Links from Diego: Singleton http://stackoverflow.com/questions/5720029/create-singleton-using-gcds-dispatch-once-in-objective-c  CocoaControls https://www.cocoacontrols.com A control used on classroom: https://github.com/lyokato/FBDigitalFont
+
+
+ Next week, November 13 at 19:30 Joan Romano will talk about Clean code practices: http://www.meetup.com/nsbarcelona/events/217539782/  via Twitter: https://twitter.com/joanromano/status/529591263570313216
+
+ Links from Diego: Sound editor and format converter http://audacity.sourceforge.net  Freesound: Sound searcher http://audacity.sourceforge.net     OpenWeather API http://api.openweathermap.org/data/2.5/weather?q=Barcelona Safari Extension to read JSON https://github.com/rfletcher/safari-json-formatter/downloads 
+
+ 
+
+
+
 
 
 

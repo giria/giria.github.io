@@ -338,23 +338,118 @@ Links from Dani: Books about concurrency  iOS pushing the limits http://eu.wiley
 
  Links from Diego: Sound editor and format converter http://audacity.sourceforge.net  Freesound: Sound searcher http://audacity.sourceforge.net     OpenWeather API http://api.openweathermap.org/data/2.5/weather?q=Barcelona Safari Extension to read JSON https://github.com/rfletcher/safari-json-formatter/downloads 
 
+
+ http://sqlitebrowser.org/
+
+ In case any of you is wondering how to get back the volume key sound after Yosemite changed it...  Here's how: http://www.macworld.com/article/1057197/beepchange.html
+
+ https://github.com/poolqf/PQFCustomLoaders
+
+ Links from Diego: Marcus Zarra book https://pragprog.com/book/mzcd2/core-data  Markus Zarra blog: http://www.cimgf.com  Semantic Versioning: http://semver.org   Cocoa Pods Spec https://github.com/CocoaPods/Specs
+
+
+http://stackoverflow.com/questions/12633627/expose-a-private-objective-c-method-or-property-to-subclasses
+Expose a private Objective-C method or property to subclasses
+
+
+How to make CLLocationManager work in iOS 8 http://nevan.net/2014/09/core-location-manager-changes-in-ios-8/
+
+
+dfreniche [7:11 PM] 
+http://semver.org
+Awesome jobs offers at Buffer:
+http://jobs.bufferapp.com/ios
  
 
+ Some of my best posts (if you want to have a laugh)
+
+http://blog.freniche.com/2014/03/21/cuanto-cobro-por-mi-app/
+http://blog.freniche.com/2010/11/06/los-dos-tipos-de-negocio-de-desarrollo-de-software/
+http://blog.freniche.com/2012/08/05/recruiting-nigeriano-guia-de-supervivencia-para-que-el-personal-de-rrhh-sepa-como-contratar-informaticos/ (edited)
+http://www.cimgf.com
+
+Fix the Cocoapods thing: 
+sudo gem uninstall cocoapods
+sudo gem install cocoapods -v 0.34.1
+macrotech [11:57 AM]
+Wipeout xcworkspace and everything pod related and redo
+pod install
+macrotech [11:58 AM]
+Obviously do not update cocoapods for the time being
+macrotech [11:58 AM]
+ALSO
+macrotech [12:00 PM]
+you may have to delete the libpods linked framework/library from the Target general settings
 
 
 
+There's a CloudKit talk tomorrow at 20.00h, http://www.desarrolloweb.com/desarrollo-ios.php
+
+http://vimeo.com/75232527
+Justin Williams - Achieving Zen with Auto layout
 
 
+Some "basic" UML, in case you want it to draw your model: http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell/
+
+https://www.oboom.com/YYEUIAI1/
+OBOOM is a cloud storage service that gives you up to 50GB space for your personal data at no costs. Access to your content is granted by any device connected to the internet.
+
+http://www.appcoda.com/how-to-get-current-location-iphone-user/
+How To Get the Current User Location in iPhone App
+
+Tomorrow Wednesday at 18:30 at M.O.B there will be a speech from BretVictor (http://www.betvictor.com) company. Norbert Brunner, a development manager at BetVictor will do the keynote.
+
+http://nevan.net/2014/09/core-location-manager-changes-in-ios-8/
 
 
+A quick summary of  yesterday speech of Marc Borrell of bemobile.es. Their Barcelona-based company has a mobile development branch and a start-up accelerator branch . At http://www.101startups.com/project/bemobile/ you can obtain more information about the start-up accelerator unit and the projects they invest in.  Bemobile company  is looking right now for iOs developers. You can contact directly with Marc at: mborrell@bemobile.es
 
 
+https://github.com/apalancat/ironhack-map-party
+ 
+GitHub
+apalancat/ironhack-map-party
+
+A quick summary of  Norbert speech. Norbert Brunner is a development manager at BetVictor, a UK online gambling company with branchs in Gibraltar, Malaga, Hungary.. More than a typical speech was a Q&A type session on what it is like to be a mobile developer in an enterprise like BetVictor.
+Just to say the presentation was really informative, they have open positions on the company all the time. He said that the company is quite transparent and affordable, don't hesitate to contact him directly for open iOS positions, His email is Norbert.Brunner@betvictor.com
 
 
+Links from Marc: Charles proxy: http://www.charlesproxy.com  Payments integration with Stripe https://stripe.com Example of portal with Stripe integration: https://convertkit.com  Cargo Bay https://github.com/mattt/CargoBay  Paw Http client http://luckymarmot.com/paw
+
+Found it! It's not a "proper" leak, though. More a bug in a never-ending task. Try to add a new city a see memory spiking
 
 
+Today , November 13 at 19:30 Redbooth ios team will talk about Clean code practices: http://www.meetup.com/nsbarcelona/events/217539782/  via Twitter: https://twitter.com/joanromano/status/529591263570313216 
+The event is at Vía Augusta 59. Edificio Mercurio. 9ª- 901, Barcelona
 
+http://www.programmableweb.com/
+ProgrammableWeb
+The leading source of news and information about APIs, chronicling the evolution of the global API economy & providing the web’s most relied-on API Directory
 
+Owner Marc B
+Client id UGMNFMZYWFUF3HWJ5UBP4X22MOPFZ4O2E45NRBCOVC0KFW52
+Client secret SSTBW0FHQK42QXDLJFFV0NN1EGUW4HY5C0RNJN0JGGWUQXCE
+
+marcb [6:27 PM] 
+https://github.com/0xced/XCDYouTubeKit
+YouTube video player for iOS and OS X
+
+Yesterday VIPER talk was AWESOME!! Here are the slides and the code for the demo they made. They also have a gem to build a VIPER file structure for a project.
+
+bernis [11:27 AM]
+https://twitter.com/pepibumur/status/533027010038480896
+
+http://blog.iteedee.com/2014/02/ibeacon-startmonitoringforregion-doesnt-work/
+
+If anybody is interested in KVO this is a nice tutorial: 
+http://www.appcoda.com/understanding-key-value-observing-coding/
+
+Hi everyone. I know Marc is going to "invade" your Monday, and I need a couple days off (tomorrow also working), so we're going to move our CoreData last session on Contexts to next Thursday, Nov 20th, at 11:00 AM. From 11:00-13:00 approx. Regards
+
+victorbaro [4:30 PM] 
+for KVO you should try this: https://github.com/facebook/KVOController
+
+Links from Marc: An alternative to Core Data for people who like having direct SQL access: https://github.com/marcoarment/FCModel iOS Weekly:  http://iosdevweekly.com
 
 
 

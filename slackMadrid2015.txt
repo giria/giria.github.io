@@ -1,0 +1,420 @@
+
+
+
+http://nilsou.com/blog/2013/08/21/objective-c-blocks-syntax/
+
+is a blog about Objective-C and iOS Development.
+
+
+Enhorabuena @armando por tu primer post http://www.carmona.link/2015/02/08/ironhack-week-1/
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+
+}
+
+
+
+Longitud del texto de un textfield `textfield.text.length`
+
+----- February 10th, 2015 -----
+
+
+Pasos para implementar el delegado
+
+fran [6:07 PM]
+```//1.Definir un protocolo en IHPresentedViewController
+//2.Implementar el método en IHViewController
+//3.Crear una propiedad en IHPresentedViewController que sea delegate
+//4.Hacer vc.delegate = self en IHViewController
+//5.Cuando IHPresentedViewController vaya a cerrarse, llama al método sobre el delegado
+//6. IHViewController cierra a IHPresentedViewController
+
+
+http://www.objc.io/issue-13/viper.html
+
+
+
+Poner un controlador como raíz de vuestra ventana
+fran [10:09 AM]
+```- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window.rootViewController = //Aquí tu controlador
+    [self.window makeKeyAndVisible];
+}
+
+
+imageView.clipsToBounds = YES;`
+
+
+Scrolling Using Paging Mode: https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/UIScrollView_pg/ScrollViewPagingMode/ScrollViewPagingMode.html
+Explains how to use scroll views to implement scrollable and zoomable user interfaces.
+
+
+UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"ViewController1"];
+    [self presentViewController:vc animated:YES completion:nil];
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+}
+
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+}
+
+
+Ejercicio para esta tarde: _
+
+Note taking app
+Table view with different sized cells for the notes
+You can add a note pressing a “+” in the nav bar.
+To know the height of the label inside the cell, create an auxiliary one with the same size, set the wanted text and do a sizeToFit, then get its height.
+When there are no notes you need to show a cell with a label that says “No notes”
+
+
+Truqui de la altura:
+
+fran [6:00 PM]
+```UILabel *gettingSizeLabel = [[UILabel alloc] init];
+gettingSizeLabel.font = [UIFont fontWithName:@"YOUR FONT's NAME" size:16];
+gettingSizeLabel.text = @"YOUR LABEL's TEXT";
+gettingSizeLabel.numberOfLines = 0;
+gettingSizeLabel.lineBreakMode = NSLineBreakByWordWrapping;
+CGSize maximumLabelSize = CGSizeMake(310, 9999);
+
+CGSize expectSize = [gettingSizeLabel sizeThatFits:maximumLabelSize];```
+
+
+Cómo funcionan las scroll view http://oleb.net/blog/2014/04/understanding-uiscrollview/
+An in-depth look at how coordinate systems work in UIKit and how the bounds and frame properties of a view relate to each other leads us to a reimplementation of UIScrollView in its simplest form.
+
+Esto del VIPER ha surgido en varias ocasiones durante esta semana, aquí tenéis uno de los mejores artículos sobre el tema
+fran [2:22 PM]
+http://www.objc.io/issue-13/viper.html
+A periodical about best practices and advanced techniques for iOS and OS X development.
+Y aquí una charla introductoria que hice con unos amigos que lo usan https://www.youtube.com/watch?v=31FE6qORR64
+
+
+Week Victor Baro
+
+Os paso links a los ejercicios de la semana 4
+
+https://bitbucket.org/produkt/ios-ironhack-2014-4th-week-bcn/src/ff9606516b1b18de963889007ed8eff85ff08a12/Practices/Models/NSCopy_NSCoding/Models.md?at=master
+https://bitbucket.org/produkt/ios-ironhack-2014-4th-week-bcn/src/ff9606516b1b18de963889007ed8eff85ff08a12/Practices/Concurrency/Concurrency.md?at=master
+https://bitbucket.org/produkt/ios-ironhack-2014-4th-week-bcn/src/ff9606516b1b18de963889007ed8eff85ff08a12/Practices/BlocksNetworking/BlocksNetworking.md?at=master
+https://bitbucket.org/produkt/ios-ironhack-2014-4th-week-bcn/src/c075fa6e4e68c9c58aad963671233af773c4f526/Practices/Persistence/TVShowsCoreData/Persistence.md?at=master
+
+
+
+
+
+
+#define degreesToRadians(x) (M_PI * x / 180.0)
+
+
+
+
+// List all CIFilters
+-(void)logAllFilters {
+    NSArray *properties = [CIFilter filterNamesInCategory:
+                           kCICategoryBuiltIn];
+    NSLog(@"%@", properties);
+    for (NSString *filterName in properties) {
+        CIFilter *fltr = [CIFilter filterWithName:filterName];
+        NSLog(@"%@", [fltr attributes]);
+    }
+}
+
+
+
+-(void)logAllFilters {
+    NSArray *properties = [CIFilter filterNamesInCategory:
+                           kCICategoryBuiltIn];
+    NSLog(@"%@", properties);
+    for (NSString *filterName in properties) {
+        CIFilter *fltr = [CIFilter filterWithName:filterName];
+        NSLog(@"%@", [fltr attributes]);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+-(void)logAllFilters {
+    NSArray *properties = [CIFilter filterNamesInCategory:
+                           kCICategoryBuiltIn];
+    NSLog(@"%@", properties);
+    for (NSString *filterName in properties) {
+        CIFilter *fltr = [CIFilter filterWithName:filterName];
+        NSLog(@"%@", [fltr attributes]);
+    }
+}
+
+
+    UIBezierPath* starPath = UIBezierPath.bezierPath;
+    [starPath moveToPoint: CGPointMake(CGRectGetMinX(frame) + 0.50000 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.03333 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.67634 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.28205 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.97553 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.36731 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.78532 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.60628 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.79389 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.90769 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.50000 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.80667 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.20611 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.90769 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.21468 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.60628 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.02447 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.36731 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.32366 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.28205 * CGRectGetHeight(frame))];
+    [starPath closePath];
+
+
+
+
+
+
+ 
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+    UIView *block = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
+    block.backgroundColor = [UIColor redColor];
+    [self.view addSubview:block];
+    self.blockView = block;
+    
+    UIView *roundView = [[UIView alloc]initWithFrame:CGRectMake(250, 250, 50, 50)];
+    roundView.layer.cornerRadius = 25;
+    roundView.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:roundView];
+    self.roundView = roundView;
+    
+    [self startDynamics];
+}
+
+- (void)startDynamics {
+    
+    self.mainAnimator = [[UIDynamicAnimator alloc]initWithReferenceView:self.view];
+    UIGravityBehavior *gravityB = [[UIGravityBehavior alloc]initWithItems:@[self.blockView]];
+
+    [self.mainAnimator addBehavior:gravityB];
+    
+    UICollisionBehavior *collisionB = [[UICollisionBehavior alloc]initWithItems:@[self.blockView, self.roundView]];
+    [collisionB addBoundaryWithIdentifier:@"boundary1"
+                                fromPoint:CGPointMake(0, 350)
+                                  toPoint:CGPointMake(120, 350)];
+    collisionB.translatesReferenceBoundsIntoBoundary = YES;
+    [self.mainAnimator addBehavior:collisionB];
+    
+    
+    UIDynamicItemBehavior *dynamicItemB = [[UIDynamicItemBehavior alloc]initWithItems:@[self.blockView]];
+    dynamicItemB.elasticity = 0.8;
+    [self.mainAnimator addBehavior:dynamicItemB];
+ 
+    UIAttachmentBehavior *attachmentB = [[UIAttachmentBehavior alloc]initWithItem:self.roundView attachedToItem:self.blockView];
+    attachmentB.length = 150;
+    attachmentB.frequency = 5;
+    [self.mainAnimator addBehavior:attachmentB];
+}
+
+- (UIBezierPath *)starPath:(CGRect)frame {
+    UIBezierPath* starPath = UIBezierPath.bezierPath;
+    [starPath moveToPoint: CGPointMake(CGRectGetMinX(frame) + 0.50000 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.03333 * CGRectGetHeight(frame))];
+    [starPath addLineToPoint: CGPointMake(CGRectGetMinX(frame) + 0.67634 * CGRectGetWidth(frame), CGRectGetMinY(frame) + 0.28205 * CGRectGetHeight(frame))];
+
+
+
+
+http://www.slideshare.net/onoaonoa/cs193p-lecture-5-view-animation
+
+
+http://www.objc.io/issue-12/animations-explained.html
+
+
+https://github.com/victorBaro/ironhack-week3.git
+Ironhack-week3 - Simple app containing all the examples for my 3 days course at ironhack
+
+
+http://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples
+All about layers - in swift
+
+http://www.captechconsulting.com/blog/tyler-tillage/ios-7-tutorial-series-custom-navigation-transitions-more
+
+Ejemplos de transiciones entre VC y animaciones (edited)
+
+victorbaro [5:00 PM]
+https://github.com/Masonry/Masonry
+
+Pod muy utilizado para trabajar con autolayout por código
+
+https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/AutoLayoutbyExample/AutoLayoutbyExample.html#//apple_ref/doc/uid/TP40010853-CH5-SW8
+
+Nota técnica de Apple para trabajar con Autolayout + scrollviews
+Describes the constraint-based system for laying out user interface elements.
+
+
+
+victorbaro [5:03 PM]5:03
+http://www.thinkandbuild.it/implementing-the-twitter-ios-app-ui/
+
+Implementar twitter profile screen
+
+https://medium.com/@jsleeuw/mastering-programmatic-auto-layout-b02ed2499d79
+Medium
+Mastering programmatic Auto Layout
+
+
+victorbaro [5:08 PM]5:08
+https://developer.apple.com/library/ios/technotes/tn2154/_index.html
+Another technical Note from apple on autolayout + scroll
+
+
+
+victorbaro [5:10 PM]5:10
+http://mathewsanders.com/designing-adaptive-layouts-for-iphone-6-plus/?utm_campaign=iOS_Dev_Weekly_Issue_165&utm_medium=email&utm_source=iOS%2BDev%2BWeekly
+
+Adaptive layout (autolayout, size classes, etc..)
+
+
+Advanced pop custom animation properties
+http://www.shinobicontrols.com/blog/posts/2014/05/21/popcharts-animating-shinobicharts-with-facebooks-pop-library (edited)
+
+victorbaro [5:12 PM]
+The art of UI Animations (*Echadle un ojo que vale la pena*)
+http://markgeyer.com/pres/the-art-of-ui-animations/#/3
+The Art of UI Animations, Lean UX SF.
+
+
+Interactive* View controller transitions 
+http://www.iosnomad.com/blog/2014/5/12/interactive-custom-container-view-controller-transitions
+
+victorbaro [5:15 PM]
+Marcad este blog entero como favorito, y este post como super favorito
+http://ronnqvi.st/multiple-animations/
+David Rönnqvist
+
+UIKit Dynamics, Core Animation Layers and Autolayout Constraints
+
+https://medium.com/cocoa-gurus/uikit-dynamics-core-animation-layers-and-autolayout-constraints-b4010951676
+Medium
+UIKit Dynamics, Core Animation Layers and Autolayout Constraints
+
+
+
+http://blog.domesticcat.com.au/ios/2014/03/19/creating-parallax-effect-on-uiscrollview-using-simple-constraints/
+
+victorbaro [5:20 PM]
+Skype action sheet
+http://holko.pl/2014/06/26/recreating-skypes-action-sheet-animation/ (edited)
+
+victorbaro [5:25 PM] 
+Serie de ejemplos de core animation que escribí hace tiempo para miguel diaz
+
+http://www.migueldiazrubio.com/2013/08/02/desarrollo-ios-creando-nuestros-propios-controles-con-core-animation/
+
+http://www.migueldiazrubio.com/2013/10/28/desarrollo-ios-7-profundizando-en-core-animation-cakeyframeanimation-y-uibezierpathanimation/
+
+
+Y este de regalo, porque mola bastante:
+https://github.com/hfossli/AGGeometryKit
+
+
+
+Hola a todos. Algunos me preguntasteis por la semana que viene, y qué requisitos hay para poder seguir la semana sin ir muy perdidos, así que os he hecho un recopilatorio de cosas que se van a dar por supuestas y que sería importante que tuvieseis claro. Sobre todo conceptualmente.
+
+Programación Orientada a Objetos : Es importante que tengáis un buen dominio de la OO. No sólo tener claro qué es un objeto y que existe la herencia, sino conceptos como polimorfismo, duck typing, introspección...  Os dejo un link a introducción a la OOP de Apple https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/OOP_ObjC/Introduction/Introduction.html
+La gran mayoría de conceptos que veremos en la próxima semana serán conceptos que se pueden aplicar perfectamente a cualquier lenguaje de programación y plataforma, por lo que cualquier documentación referente a la OOP es perfectamente válida.
+
+Objective-C runtime : No vamos a trabajar de forma extensa con el runtime, pero sí que veremos alguna cosa y es recomendable tener claro qué significa que un lenguaje tenga runtime, las diferencias entre algo que ocurre en compile time vs runtime. No es necesario conocer todo lo que se puede hacer con el runtime ni técnicas como el swizzling. De hecho, es algo que no veremos. Pero sí tener muy claro la existencia del runtime y qué significa. Os dejo un link de un video de Ray Wenderlich sobre el tema http://www.raywenderlich.com/61318/video-tutorial-objective-c-runtime
+Si a alguien le parece interesante y quiere profundizar, podéis echarle un ojo a este articulo http://cocoasamurai.blogspot.com.es/2010/01/understanding-objective-c-runtime.html. Pero esto NO es necesario para esta semana
+
+Objective-C categories: Trabajaremos bastante con categories, así que es muy importante entender qué son y qué podemos hacer con ellas. https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html
+
+ViewController lifecycle : Daremos por hecho que todos sabéis crearos viewController (ya sea usando storyboards o a mano), cómo ocurre el ciclo de vida de vistas en un viewController, y cómo hacer navegaciones entre viewControllers.
+
+
+Espero que os sirva. Nos vemos el lunes.
+
+Un abrazo !
+
+
+
+Este es un resumen detallado de todas las semanas del curso de iOS que hizo Rafa Paradela (un alumno de la primera edicion): (edited)
+
+joan [8:52 AM]
+http://rafaparadela.github.io/ironhack/
+
+Presentaciones y Ejercicios
+
+https://bitbucket.org/produkt/ios-ironhack-2015-4th-week/src
+
+
+//
+//  NSString+Random.h
+//  Models
+//
+//  Created by Daniel García on 17/05/14.
+//  Copyright (c) 2014 Produkt. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSString (Random)
++ (NSString *)randomString;
+@end
+
+
+
+
+//
+//  NSString+Random.m
+//  Models
+//
+//  Created by Daniel García on 17/05/14.
+//  Copyright (c) 2014 Produkt. All rights reserved.
+//
+
+#import "NSString+Random.h"
+
+@implementation NSString (Random)
++ (NSString *)randomString{
+    NSString *randomString=@"";
+    NSInteger numberOfLetters=arc4random_uniform(10) + 4;
+    for (NSInteger i=0; i<numberOfLetters; i++) {
+        randomString = [randomString stringByAppendingString:[NSString stringWithFormat:@"%c", arc4random_uniform(26) + 'a']];
+    }
+    return randomString;
+}
+@end
+
+
+
+JSON de ejemplo
+https://bitbucket.org/produkt/ios-ironhack-2015-4th-week/raw/83285b794a8ff1ce23a9de6363ccd56d63f72e92/Practices/shows.json
+
+
+- (NSDictionary *)showsJSONDictionaryFromRemote{
+    NSURL *jsonURL = [NSURL URLWithString:@"https://bitbucket.org/produkt/ios-ironhack-2015-4th-week/raw/83285b794a8ff1ce23a9de6363ccd56d63f72e92/Practices/shows.json"];
+    NSData *seriesData = [NSData dataWithContentsOfURL:jsonURL];
+    NSError *error;
+    NSDictionary *JSONDictionary = [NSJSONSerialization JSONObjectWithData:seriesData options:NSJSONReadingMutableContainers error:&error];
+    return JSONDictionary;
+}
+
+
+
+
+
+
+

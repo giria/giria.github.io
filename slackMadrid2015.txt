@@ -431,6 +431,30 @@ https://es.linkedin.com/pub/francisco-sevillano-plata/27/929/121
 Ver el perfil profesional de Francisco Sevillano Plata (España) en LinkedIn. LinkedIn es la red de negocios más grande del mundo que ayuda a profesionales como Francisco Sevillano Plata a encontrar contactos internos para recomendar candidatos a un empleo, expertos de un sector y socios comerciales.
 
 
+Esto es una frikada , pero ya que hoy vimos bloques, no podía dejar de pasaros este video de coña que hicieron los de Big Nerd Ranch
+https://www.youtube.com/watch?v=xk1VWhToP5w
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <libextobjc/EXTScope.h>
+#endif
+
+
+Example API: http://docs.trakt.apiary.io/#introduction/api-url
+
+
+http://www.state-of-the-union.com   Weekly iOS news
+
+ya que estais apuntad tambien http://ios-goodies.com y https://iosdevweekly.com
+
+Thanks Victor ! More links from @fillito *Head first design Patterns* http://www.amazon.com/Head-First-Design-Patterns-Freeman-ebook/dp/B00AA36RZY (more entertaining lecture than classical  *"Design Patterns: Elements of Reusable Object-Oriented Software"* http://www.amazon.com/Design-Patterns-Object-Oriented-Professional-Computing/dp/0201634988). Ivar Jacobson  *Use cases book *  http://www.ivarjacobson.com/Use_Case2.0_ebook/
+
+
+
+
+
 
 
 

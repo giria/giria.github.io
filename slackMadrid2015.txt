@@ -453,6 +453,51 @@ Thanks Victor ! More links from @fillito *Head first design Patterns* http://www
 
 
 
+Produkt Dropbox hackaton blog entry
+https://medium.com/produkt-blog/dropbox-hackathon-ceae4fc5d1db
+Contains a link with the sketch designs !
+
+
+
+
+Librerias de carga de imagenes: SDWEbImage  https://github.com/rs/SDWebImage Haneke https://github.com/Haneke/Haneke
+
+
+- (NSString *)imageKeyForURL:(NSURL *)imageURL{
+    // http:\/\/thetvdb.com\/banners\/posters\/81189-22.jpg
+    // httpthetvdbcombannersposters81189-22jpg
+    
+    return [[[[[imageURL description]
+               stringByReplacingOccurrencesOfString:@"/" withString:@""]
+                stringByReplacingOccurrencesOfString:@":" withString:@""]stringByReplacingOccurrencesOfString:@"\\" withString:@""] stringByReplacingOccurrencesOfString:@"." withString:@""];
+}
+
+
+
+https://api.themoviedb.org/3/movie/550?api_key=065b3e195e4a9d2ab69d6a9301cd6201
+
+http://docs.themoviedb.apiary.io/
+
+
+
+2 entidades (Movies, TVShows)
+Persistir Datos
+Update de Datos
+Celdas Custom (1 por entidad)
+Carga de Imágenes async
+Carga de Imágenes con cache
+Todo en una misma tabla
+Evitar introspección (isKindOfClass/isMemberOfClass)
+
+Bonus : Sincronizar carga de datos
+
+
+
+Model libray:   https://github.com/Produkt/PDKTModelBuilder
+
+
+
+
 
 
 

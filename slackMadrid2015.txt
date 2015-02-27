@@ -493,7 +493,15 @@ Bonus : Sincronizar carga de datos
 
 
 
-Model libray:   https://github.com/Produkt/PDKTModelBuilder
+Model library:   https://github.com/Produkt/PDKTModelBuilder
+
+Victor:
+No vimos mascaras explicitamente (aunque es una simple property de las capas). En ray wenderlich se han currado un tut muy chulo por si os interesa:
+http://www.raywenderlich.com/94302/implement-circular-image-loader-animation-cashapelayer
+
+
+
+
 
 
 

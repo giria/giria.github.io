@@ -501,6 +501,61 @@ http://www.raywenderlich.com/94302/implement-circular-image-loader-animation-cas
 
 
 
+http://image.tmdb.org/t/p/w500/xgfciIMtkhysBqZ84O4oG3WL7qG.jpg
+
+https://github.com/JaviSoto/MSWeakTimer     NSTimer version without retain cycles
+
+JORGE DAVID ORTIZ.WEEK4
+
+Os paso el enlace del repositorio de Jorge:
+
+joan [6:49 PM]
+https://github.com/jdortiz/BadHunter
+
+
+Aplicaciones que usan "rotating wheels"
+N de Jorge Drexler  http://wakeapp.com/app/jorge-drexler
+El circulo de la salud https://itunes.apple.com/es/app/el-circulo-de-la-salud/id919441945
+Tutoriales para rotating wheels:
+http://www.raywenderlich.com/9864/how-to-create-a-rotating-wheel-control-with-uikit
+
+
+
+Indicaciones para el proyecto:
+- En cuanto tengais una idea para vuestro proyecto, comentadlo con vuestros compañeros, conmigo y con los profesores.
+- Una vez sepamos de vuestro proyecto, si teneis dudas de como implementarlo os proporcionaremos enlaces a tutoriales, apps semejantes y tambien podeis preguntar a los profesores sobre la viabilidad de vuestra idea.
+- Una vez tengais una idea más o menos clara de vuestro proyecto podeis introducir una descripción en:
+
+
+http://ironhack-school.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/12343
+
+Podeis ver un ejemplo de descripciones de proyectos de la segunda edición del curso de iOS:
+http://ironhack-school.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/9606
+
+
+From @fillito:  lista de gente de la comunidad iOS a la es interesante seguir:
+
+joan [3:12 PM]
+una lista de unos cuantos iOS Devs
+
+https://twitter.com/fillito/lists/ios/members
+
+
+
+Este es el enlace. La charla es sobre VIPER que vimos con Dnai http://www.meetup.com/NSCoder-Night-Madrid/events/220781139/?a=md1_grp&rv=md1&_af_eid=220781139&_af=event
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

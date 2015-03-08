@@ -545,9 +545,47 @@ https://twitter.com/fillito/lists/ios/members
 Este es el enlace. La charla es sobre VIPER que vimos con Dnai http://www.meetup.com/NSCoder-Night-Madrid/events/220781139/?a=md1_grp&rv=md1&_af_eid=220781139&_af=event
 
 
+Lista de mentores:
+
+joan [8:20 PM]
+Ruben Mendez
+Miguel Díaz Rubio
+Miguel Olmedo Camacho
+Francisco Sevillano
+Francisco Sevillano
+Antonio Cabezuelo
+Julian Romero (CameraPlus)
+Sergio Padrino (Plex, ex Tuenti)
 
 
+David David Heinemeier article: "TDD is dead" http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html and video meetings with Ken Beck and Martin http://martinfowler.com/articles/is-tdd-dead/
 
+Pro Core Data for iOS, Second Edition* http://www.amazon.com/Pro-Core-Data-Second-Edition/dp/1430236566
+
+Gran charla ayer de @julian sobre Node.js y el framework https://github.com/giria/Nylex.js que ha desarrollado sobre Node. Bien merece que entreis en el repo y le demos a la estrella
+
+
+http://realm.io/news/nspredicate-cheatsheet/
+
+Hola chicos. Pues cuanto antes.... pero me ha sido imposible aún x_x 
+Tenéis colgada la solución de la edición anterior (BCN), que es exactamente el mismo ejercicio https://bitbucket.org/produkt/ios-ironhack-2014-4th-week-bcn/src/c075fa6e4e68c9c58aad963671233af773c4f526/SummaryProject%20BCN/TVShowsCoreData/?at=master
+Quería subiros una de este año porque hay algún detalle ligeramente distinto, pero poca cosa. Si miráis ese está funcionando con la misma idea de arquitectura, con los mismos patrones que os enseñé.
+
+En cuanto pueda sacar un hueco para subir exactamente la de esta edición os aviso. Disculpad por el retraso
+
+
+Muy bien  :grinning: Michel, Armando y Antonio y Julian por haber entrado la descripción de los proyectos. Recordad que podeis entrar vuestra descripcion en:
+http://ironhack-school.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/12343
+(previamente hay que crear una cuenta en ideascale)
+
+En cuanto los tengamos todos pasaremos el enlace a todos los mentores para que lo comenten.
+
+https://github.com/giphy/GiphyAPI
+
+
+fran [8:00 PM]8:00
+https://github.com/mayoff/uiimage-from-animated-gif/
+uiimage-from-animated-gif - A UIImage category that loads animated GIFs
 
 
 

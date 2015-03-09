@@ -588,6 +588,20 @@ https://github.com/mayoff/uiimage-from-animated-gif/
 uiimage-from-animated-gif - A UIImage category that loads animated GIFs
 
 
+API openWeatherMap http://openweathermap.org
+Current weather conditions in cities for world wide
+
+Looks like we're in the right bootcamp, folks
+http://www.nytimes.com/2015/03/09/business/surge-in-smartphones-sets-off-new-wave-of-corporate-self-reinvention.html
+
+Debbuging connectivity issues:
+  Charles   http://www.charlesproxy.com
+  Cocoa Rest Client  http://www.charlesproxy.com
+
+
+  
+
+
 
 
 

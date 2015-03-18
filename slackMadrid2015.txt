@@ -599,7 +599,69 @@ Debbuging connectivity issues:
   Cocoa Rest Client  http://www.charlesproxy.com
 
 
-  
+Plantilla para AppleDocs:
+
+   /usr/local/bin/appledoc \
+--project-name "${PROJECT_NAME}" \
+--project-company “IronHack” \
+--company-id "com.ironHack” \
+--output “~/dev2015/Help/${PROJECT_NAME}" \
+--install-docset \
+--logformat xcode \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--keep-intermediate-files \
+--no-repeat-first-par \
+--no-warn-invalid-crossref \
+--merge-categories \
+--exit-threshold 2 \
+--docset-platform-family iphoneos \
+--ignore "*.m" \
+--index-desc "${PROJECT_DIR}/readme.md" \
+"${PROJECT_DIR}/${PROJECT_NAME}" \
+
+
+
+
+
+URL para que empecemos con lo del reconocimiento de caras
+
+leofont [3:47 PM]
+https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/CoreImaging/ci_detect_faces/ci_detect_faces.html
+Provides an overview and explains how to use and create image filters and image units.
+
+
+
+La gente de Traity me recuerda que os comparta su evento http://coding.traity.com
+
+
+https://randomuser.me
+
+@channel: como os comenté ayer a algunos de vosotros, os dejo aquí un ejemplo de una app para iPhone+Apple Watch que hicieron unos ex-compañeros de Tuenti para una charla (edited)
+
+sergiou87 [11:21 AM]
+https://github.com/WatchKitTheEvnt/GitHubStars/
+
+
+
+usa MVVM con ReactiveCocoa, tiene cosas de CleanArchitecture…
+
+sergiou87 [11:22 AM]
+en mi opinion es un ejemplo genial de cómo hacer una arquitectura en condiciones, con el añadido de tener ademas extension para Apple Watch
+
+sergiou87 [11:24 AM]
+y como contrapunto, un post de Joel Spolsky (creador de Stack Overflow) sobre la sobreingeniería: http://discuss.joelonsoftware.com/?joel.3.219431.12
+
+
+
+
+
+
+
+
+
+
+
 
 
 

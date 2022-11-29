@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Multicol starting point</title>
     <link rel="stylesheet" href="multicol.css" />
-    <script type = "text/javascript">
+    <script type="text/javascript">
         function displayNextImage() {
             x = (x === images.length - 1) ? 0 : x + 1;
             document.getElementById("img").src = images[x];
@@ -32,24 +32,31 @@
     </script>
 </head>
 
-<body  onload = "startTimer()">
+<body onload="startTimer()">
     <header>
-        <img class="displayed" src="images/name.png"  />
+        <img class="displayed" src="images/name.png" />
     </header>
-    <div class="center">
-        <b>Passionate about innovation </b><br><br> 
-           One common theme in my work is the use of graphics in order to improve the user's experience. An adequate interface always 
-           translates into an overall better customer experience. Below you can see some projects I worked for diferent clients.
-      </div>
-    <div class="container">
-        <div class="projectText">
-            <b>Client: Inversis Banco (Spain).<br> Financial industry</b><br><br> Build from scratch an online tool to
-            perform technical analisys of stock shares and indexes.
-            The tool was succesful, and even nowadays, with minor modifications, is in use on several
-            online broker portals.
+    <div>
+        <div class="center">
+            <center><b>Passionate about innovation</b></center><br>
+            One common theme in my work is the use of graphics in order to improve the user's experience. An adequate
+            interface always
+            translates into an overall better customer experience. Below you can see some projects I worked for diferent
+            clients.
         </div>
-        <div class="projectImage">
-            <img src="images/inversis.png" alt="Inversis" />
+    </div>
+
+    <div class="spacer">
+        <div class="container">
+            <div class="projectText">
+                <b> Client: FIS Merchant Services (U.K.) <br> Financial industry<br></b><br>
+                iPad app used by merchant sales team of FIS from Wordpay. Lead management, merchant onboarding.
+                Allows merchants to get up and running in no-time. With advanced capabilities like online and
+                offline mode, local and remote backup and restore capabilities and automated boarding.
+            </div>
+            <div class="projectImage">
+                <img src="images/FIS.jpg" alt="FIS" />
+            </div>
         </div>
     </div>
     <div class="spacer">
@@ -68,35 +75,41 @@
         </div>
 
     </div>
+
     <div class="spacer">
         <div class="container">
             <div class="projectText">
-                <b> Client: FIS Merchant Services (U.K.) <br> Financial industry<br></b><br>
-                iPad app used by merchant sales team of FIS from Wordpay. Lead management, merchant onboarding.
-                Allows merchants to get up and running in no-time. With advanced capabilities like online and
-                offline mode, local and remote backup and restore capabilities and automated boarding.
+                <b>Client: Inversis Banco (Spain).<br> Financial industry</b><br><br> Build from scratch an online tool
+                to
+                perform technical analisys of stock shares and indexes.
+                The tool was succesful, and even nowadays, with minor modifications, is in use on several
+                online broker portals.
             </div>
             <div class="projectImage">
-                <img src="images/FIS.jpg" alt="FIS" />
+                <img src="images/inversis.png" alt="Inversis" />
             </div>
         </div>
-
     </div>
-   
+
+
+
+
     <div class="spacer">
         <div class="container">
             <div class="projectText">
-                <b> Learn more about me</b><br><br> 
-                On this site <a target="_blank" href="https://instantmirage.com"> (https://www.instantmirage.com)</a>, I discuss implementations in Swift language of different algorithms. 
+                <b> Learn more about me</b><br><br>
+                On this site <a target="_blank" href="https://instantmirage.com">
+                    (https://www.instantmirage.com)</a>, I
+                discuss implementations in Swift language of different algorithms.
             </div>
-            <div class="projectImage" >
+            <div class="projectImage">
                 <img id="img" src="images/im1.png" alt="Instant Mirage" />
                 <button type="button" onclick="displayPreviousImage()">Previous</button>
                 <button type="button" onclick="displayNextImage()">Next</button>
             </div>
         </div>
     </div>
-   
+
 
 
 </body>
